@@ -5,7 +5,20 @@ function getComputersChoice(computerChoice = 3) {
     return Math.floor(Math.random() * computerChoice) + 1;
 }
 let computerChoice = getComputersChoice();
-console.log(computerChoice);
+// console.log(computerChoice);
+
+// TODO -- fix variable declared but never used
+let result = " ";
+if (computerChoice == 1) {
+    result = "Rock"
+}
+else if (computerChoice == 2) {
+    result = "Paper"
+}
+else if (computerChoice == 3) {
+    result = "Scissors"
+}
+console.log(result);
 
 //prompt the user to enter in one of the three strings and store that inside another variable
 
