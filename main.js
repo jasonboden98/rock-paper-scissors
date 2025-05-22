@@ -25,10 +25,10 @@ function getPlayersChoice(userChoice = prompt("Choose Rock, Paper, or Scissors: 
 let userChoice = getPlayersChoice();
 // console.log("You chose " + userChoice);
 
-
-
-
 //declate the players score variables
 //two variables names humanScore & computerScore, initialize the variables with the value of 0
+const humanScore = 0;
+let computerScore = 0;
+
 //write the logic to play a single round, create a function called playRound
 //write logic to play the entire game
