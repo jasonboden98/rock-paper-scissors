@@ -7,7 +7,7 @@ function getComputersChoice(computerChoice = 3) {
 let computerChoice = getComputersChoice();
 // console.log(computerChoice);
 
-// TODO -- fix variable declared but never used
+// TODO -- fix variable declared but never used --FIXED
 let result = " ";
 if (computerChoice == 1) {
     result = "Rock"
