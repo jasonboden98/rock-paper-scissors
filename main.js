@@ -32,3 +32,5 @@ let computerScore = 0;
 
 //write the logic to play a single round, create a function called playRound
 //write logic to play the entire game
+
+// ngl im kinda stuck on how i should go about getting the rounds to play out and function so im working on other stuff to get more knowl
